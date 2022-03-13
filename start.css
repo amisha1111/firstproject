@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+}
+nav{
+    display: flex;
+    height: 25vh;
+
+}
+.image img{
+    padding: 5px;
+    height: 150px;
+    width: 300px;
+}
+nav div{
+    
+    width: 70vw;
+}
+#navlinks{
+    display: flex;
+    padding: 20px;
+}
+#navlinks li{
+    list-style: none;
+    padding: 10px;
+
+}
+
+#navlinks li a{
+    display: flex;
+    text-decoration: none;
+}
+
+#navlinks li a:hover{
+    color: red;
+    font-family: bold ;
+}
+.text-box p{
+    font-size: 2rem;
+}
+
+.bg{
+    background-image: url("bg.jpg");
+}
